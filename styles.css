@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li , a, button {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: aliceblue;
+    text-decoration:wavy;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px ;
+    height: 100px;
+}
+
+.logo{
+    cursor: pointer;
+    size: 50px;
+    display: block;
+    height: 70px;
+    width:100px;
+    image-resolution: 1900px;
+    padding-left: 2%;
+    
+    
+ 
+
+}
+.nav__links{
+    list-style: none;
+    
+
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+    ;
+
+}
+.nav__links li a {
+    transition: all 2s ease 0s;
+    font-size: 150%;
+
+}
+.nav__links li a:hover{
+    color: rgb(212, 110, 27);
+}
+
+button {
+    padding:9px 25px;
+    background-color: rgb(216, 148, 11);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer ;
+    transition: all 0.3s ease 0s;
+    font-size: 130%;
+}
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section h2 {
+    color: rgb(220, 164, 11);
+    margin: 4%;
+    border: 1px solid rgb(36, 30, 51) ;
+    padding-left: 40%;
+    font-size:250%;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+
+
+}
+.section img{
+    height: 300px ; 
+   
+    
+     
+  
+    
+
+
+}
+.section p{
+    color: aliceblue; 
+    margin: 2px;
+    padding: 10px;
+    font-size: 150%;
+   
+    font-family: "Oswald", sans-serif;
+}
+.nav__links{
+    background-color: visd;*
+}
+.section h2:hover{
+    color: aliceblue;
+}
+ .section .service {
+    font-size: 250%;
+    margin: 4%;
+    padding-left: 40%;
+    
+    
+    
+    
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 2vw;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 10px;
+}
+form h3{
+    color: #b1800e;
+    font-weight: 800;
+    margin-bottom: 20px;
+    background: #ffffff;
+    font-size: 30px;
+}
+form input , form textarea {
+    border:0;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    background: #d4d6dd;
+
+}
+footer {
+    background-color: #634b12;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    
+}
